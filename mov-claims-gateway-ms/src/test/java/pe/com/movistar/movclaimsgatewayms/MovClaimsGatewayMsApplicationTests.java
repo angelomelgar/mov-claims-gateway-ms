@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MovClaimsGatewayMsApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void main(){
+		MovClaimsGatewayMsApplication.main(new String[] {});
+
 	}
 
 }
